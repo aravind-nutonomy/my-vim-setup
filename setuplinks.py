@@ -23,7 +23,7 @@ def make_symbolic_links(dir_path):
     ln_pattern = "ln -s {0} {1}"
     os.chdir(wk_dir)
     os.system(ln_pattern.format(vimrc_path, '.vimrc'))
-    os.system(ln_pattern.format(vim_dir_path, 'vim'))
+    os.system(ln_pattern.format(vim_dir_path, '.vim'))
 
 
 def main():
