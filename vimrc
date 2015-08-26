@@ -49,8 +49,8 @@ set nofoldenable
 set foldlevel=1
 
 " set gui widgets option for gvim
-set guioptions+=m   " include menubar
 set guioptions-=T   " remove toolbar
+set guioptions+=m   " include menubar
 
 " set local current directory to the file directory
 autocmd BufEnter * if expand("%:p:h") !~ '^/tmp' | silent! lcd %:p:h | endif
