@@ -86,3 +86,6 @@ endif
 
 " change `plaintex` filetype to `tex`
 let g:tex_flavor='latex'
+
+" force `*.md` as `markdown`
+autocmd BufNewFile,BufRead *.markdown,*.md,*.mdown,*.mkd,*.mkdn set ft=markdown
