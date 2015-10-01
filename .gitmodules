@@ -4,3 +4,6 @@
 [submodule "vim/bundle/vim-latex"]
 	path = vim/bundle/vim-latex
 	url = https://github.com/vim-latex/vim-latex.git
+[submodule "vim/bundle/vim-cpplint"]
+	path = vim/bundle/vim-cpplint
+	url = https://github.com/funorpain/vim-cpplint.git
