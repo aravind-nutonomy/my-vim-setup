@@ -3,4 +3,4 @@ setlocal tabstop=4
 setlocal shiftwidth=4
 setlocal expandtab
 " set textwidth
-setlocal textwidth=120
+setlocal textwidth=100
