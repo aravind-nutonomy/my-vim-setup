@@ -40,7 +40,7 @@ set shiftwidth=4
 set expandtab
 
 " set colorscheme for gvim
-colorscheme murphy
+colorscheme pablo
 
 " code folding settings
 set foldmethod=indent
@@ -89,3 +89,6 @@ let g:tex_flavor='latex'
 
 " force `*.md` as `markdown`
 autocmd BufNewFile,BufRead *.markdown,*.md,*.mdown,*.mkd,*.mkdn set ft=markdown
+
+" detect `*.lcm` as `c`
+autocmd BufNewFile,BufRead *.lcm set ft=c
